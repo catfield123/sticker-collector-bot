@@ -22,10 +22,17 @@ ENV/
 *.swp
 *.swo
 
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+
 # Docker
+docker-compose.yml
+Dockerfile
 *.log
 
-# Media files (will be added by users)
-telegram_bot/media/*.mp4
-telegram_bot/media/*.webm
-!telegram_bot/media/.gitkeep
+# Other
+.DS_Store
